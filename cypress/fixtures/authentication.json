@@ -1,0 +1,69 @@
+{
+  "ValidUserNameAndPassword":{
+
+      "UserName" : "standard_user",
+      "Passoword" : "secret_sauce"
+  },
+
+  "INValidUserNameAndINPassword":{
+
+      "UserName" : "mugahed_fathi",
+      "Passoword" : "mfz"
+  },
+
+  "EmptyUserNameAndPassword":{
+
+      "UserName" : "",
+      "Passoword" : ""
+  },
+
+  "Assertion" :{
+    "ActualResultLogin": "//*[contains(text(),'Sauce Labs Backpack')]",
+    "ExpectedTesult": "",
+    "ActualResultRemove" : "//*[contains(text(),'Remove')]"
+
+  },
+
+  "XPath": {
+    "UserName" : "//*[@id='user-name']",
+    "Passoword" : "//*[@id='password']",
+    "Login" : "//*[@id='login-button']",
+    "AllItemADD" : "//*[@class='inventory_item_name']",
+    "AllItemPhoto" : "//*[@class='inventory_item_img']",
+    "AddProduct" : "//*[@class='btn btn_primary btn_small btn_inventory']",
+    "AddToCart" : "//*[@id='add-to-cart-sauce-labs-backpack'][@name='add-to-cart-sauce-labs-backpack']",
+    "ShoppingCart" : "//*[@class='shopping_cart_link']",
+    "Checkout" : "//*[@data-test='checkout']",
+    "FirstName" : "//*[@id='first-name']",
+    "LastName" : "//*[@id='last-name']",
+    "ZipCode" : "//*[@id='postal-code']",
+    "Continue" : "//*[@id='continue']",
+    "Finish" : "//*[@id='finish']",
+    "BackHome" : "//*[@id='back-to-products']",
+    "LogoutButton" : "//*[@id='logout_sidebar_link']",
+    "MenueButton" : "//*[@id='react-burger-menu-btn']"
+ 
+
+  },
+
+  "LoggedUserInformation" :{
+    "FirstName" : "Mugahed",
+    "LastName" : "Zain",
+    "ZipCode" : "HMDL"
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+
