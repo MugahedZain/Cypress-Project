@@ -8,7 +8,7 @@ When("I am logged in", () => {
     cy.xpath(users.XPath.Login).click();
 })
 Then("I Should see sauce labs backpack", () => {
-    //cy.contains(Text)
+    //cy.contains(Text)///////////////////////
     cy.xpath(users.Assertion.ActualResultLogin).should('be.visible');
 })
 When("I Press menu button container", () => {
