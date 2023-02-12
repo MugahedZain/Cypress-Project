@@ -14,8 +14,7 @@ Then("I Should see sauce labs backpack", () => {
 })
 When("I Press sauce labs backpack", () => {   
     cy.xpath(users.Assertion.ActualResultLogin).click();
-    //cy.xpath(users.XPath.AllItemADD).click().
-    //cy.xpath(users.XPath.AllItemPhoto).click();
+    
 })
 
 When("I Press add to cart", () => {   
@@ -27,7 +26,6 @@ When("I Press shopping cart", () => {
 })
 
 Then("I Should see remove", () => {
-    //cy.contains(Text)
     cy.xpath(users.Assertion.ActualResultRemove).should('be.visible');
 })
 

@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2023-02-09T22:58:36.032Z",
-    "end": "2023-02-09T22:58:47.073Z",
-    "duration": 11041,
+    "start": "2023-02-09T23:51:40.520Z",
+    "end": "2023-02-09T23:51:50.463Z",
+    "duration": 9943,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "a7d0961b-16e7-47e4-a54d-734caa4d2d0e",
+      "uuid": "cf1ee01a-727c-4a86-b563-4c09257d5155",
       "title": "",
       "fullFile": "cypress/integration/payment/Payment.feature",
       "file": "cypress/integration/payment/Payment.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c1d86fbe-9d34-4552-90d0-1068759ab538",
+          "uuid": "3c0b1e5a-8a47-439c-bba8-5fb59d939c68",
           "title": "Payment",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "1.Add Product",
               "fullTitle": "Payment 1.Add Product",
               "timedOut": null,
-              "duration": 6234,
+              "duration": 5720,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "a414543d-b0c4-4ca3-9ab5-f10fbeed1896",
-              "parentUUID": "c1d86fbe-9d34-4552-90d0-1068759ab538",
+              "uuid": "33ffa075-4ae6-4d2d-b136-6ad002e586db",
+              "parentUUID": "3c0b1e5a-8a47-439c-bba8-5fb59d939c68",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "2.Add Product",
               "fullTitle": "Payment 2.Add Product",
               "timedOut": null,
-              "duration": 4634,
+              "duration": 4133,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "1bea8084-4cda-4ab8-9f09-29917052d3d6",
-              "parentUUID": "c1d86fbe-9d34-4552-90d0-1068759ab538",
+              "uuid": "07d49a0d-a7b1-4746-a6a9-2375334248d9",
+              "parentUUID": "3c0b1e5a-8a47-439c-bba8-5fb59d939c68",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a414543d-b0c4-4ca3-9ab5-f10fbeed1896",
-            "1bea8084-4cda-4ab8-9f09-29917052d3d6"
+            "33ffa075-4ae6-4d2d-b136-6ad002e586db",
+            "07d49a0d-a7b1-4746-a6a9-2375334248d9"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 10868,
+          "duration": 9853,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
